@@ -23,7 +23,7 @@ def print_all_items_twice(items): # O(1) * O(n) + O(1) * O(n) => O(2 * 2 * n) =>
 
 # Quadratic Time O(n^2)
 
-def print_all_items_twice(items): # 
+def print_all_items_twice2(items): # O(n^2) <= ?
     for item in items: # O(n)
         print(item) # O(1)
         for item in items: # O(n)
